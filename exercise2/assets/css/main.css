@@ -1,0 +1,77 @@
+/* Base */
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-image: url("gifs/0.gif");
+  background-color: black;
+  font-family: "Helvetica";
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1824px) {
+
+  body { background: url("gifs/1.gif"); }
+}
+
+
+
+@media screen and (max-width: 1624px) {
+
+  body { background: url("gifs/2.gif"); }
+}
+
+
+
+@media screen and (max-width: 1424px) {
+
+  body { background: url("gifs/3.gif"); }
+}
+
+
+
+@media screen and (max-width: 1224px) {
+
+  body { background: url("gifs/4.gif"); }
+}
+
+
+
+@media screen and (max-width: 1024px) {
+
+  body { background: url("gifs/5.gif"); }
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+  body { background: url("gifs/6.gif"); }
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+  body { background: url("gifs/7.gif"); }
+}
+
+
+
+@media screen and (max-width: 480px) {
+  
+  body { background: url("gifs/8.gif"); }
+}
+
+
+
+@media screen and (max-width: 320px) {
+
+  body { background: url("gifs/9.gif");}
+}
