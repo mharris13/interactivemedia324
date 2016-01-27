@@ -1,0 +1,182 @@
+	/* the following classes are the images */
+	.one {
+		top: 0px;
+	}
+
+	.two {
+		top: -310px;
+	}
+
+	.three {
+		top: -320px;
+	}
+
+	.threea {
+		top: -570px;
+	}
+
+	.four {
+		top: 0px;
+	}
+
+
+
+
+	.foura {
+		top: -510px;
+	}
+
+	.five {
+		top: -310px;
+	}
+
+	.six {
+		top: -560px;
+	}
+
+	.seven {
+		top: -930px;
+	}
+
+	.sevena {
+		top: -480px;
+	}
+
+
+
+
+	.eight {
+		top: -830px;
+	}
+
+	.nine {
+		top: -645px;
+	}
+
+	.ten {
+		top: -575px;
+	}
+
+	.tena {
+		top: -1520px;
+	}
+
+	.eleven {
+		top: -575px;
+	}
+
+
+
+
+	.twelve {
+		top: -1360px;
+	}
+
+	.thirteen {
+		top: -630px;
+	}
+
+	.fourteen {
+		top: -715px;
+	}
+
+	.fifteen {
+		top: -1650px;
+	}
+
+	.fifteena {
+		top: -660px;
+	}
+
+
+
+
+	.sixteen {
+		top: -1660px;
+	}
+
+	.seventeen {
+		top: -680px;
+	}
+
+	.seventeena {
+		top: -1215px;
+	}
+
+	.ninteen {
+		top: -1650px;
+	}
+
+	.eighteena {
+		top: -1110px;
+	}
+
+
+
+
+	.twentyseven {
+		top: -1785px;
+	}
+
+	.twentyone {
+		top: -980px;
+	}
+
+	.twentythree {
+		top: -1415px;
+	}
+
+	.twenty {
+		top: -1650px;
+	}
+
+	.twentynine {
+		top: -1375px;
+	}
+
+
+
+
+	.thirtyone {
+		top: -1915px;
+	}
+
+	.thirty {
+		top: -1435px;
+	}
+
+	.thirtyonea {
+		top: -1875px;
+	}
+
+	.thirtytwo {
+		top: -1650px;
+	}
+
+	.thirtythree {
+		top: -1780px;
+	}
+
+
+
+
+	.thirtyfive {
+		top: -1910px;
+	}
+
+	.thirtyfivea {
+		top: -2040px;
+	}
+
+	.thirtysix {
+		top: -2110px;
+	}
+
+	.thirtysixa {
+		top: -2200px;
+	}
+
+	.thirtyfour {
+		top: -2055px;
+	}
+	/* end images */
