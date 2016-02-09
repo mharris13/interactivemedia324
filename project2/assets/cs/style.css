@@ -1,3 +1,23 @@
 body {
-	background-color: black;
+	background-color: white;
 }
+
+#garbage {
+	height: 100px;
+	width: 100px;
+	background-color: red;
+	position: relative;
+	display: block;
+	z-index: 2;
+}
+
+#mouth {
+	margin-top: 400px;
+	height: 400px;
+	width: 400px;
+	background-color: black;
+	position: relative;
+	display: block;
+	z-index: 1;
+}
+
