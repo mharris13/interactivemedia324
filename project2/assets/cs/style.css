@@ -1,23 +1,65 @@
 body {
-	background-color: white;
+	background-color: #002266;
+}
+
+/* div that contains Trumps head, the caption, and the headline.  
+this div is what is used to move those elements around the page */
+#container {
+	margin-top: 100px;
+	position: absolute;
+	width: 99%;
+}
+
+/* "TRUMP" */
+.title {
+	position: absolute;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size: 200px;
+	letter-spacing: 15px;
+	left: 420px;
+	z-index: -1;
+	color: white;
+}
+
+/* "MAKE AMERICA GREAT AGAIN" */
+.tagline {
+	position: absolute;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	margin-top: 200px;
+	font-size: 37.3px;
+	letter-spacing: 4px;
+	left: 465px;
+	z-index: -1;
+	color: white;
+}
+
+/* this is the div that holds Trumps head and jaw */
+.trump {
+	position: absolute;
+	display: block;
+	left: 500px;
+	margin-top: 150px;
+}
+
+#head {
+	position: relative;
+	display: block;
+	z-index: -1;
+}
+
+#jaw {
+	z-index: 2;
+	margin-left: 81px;
+	margin-top: -160px;
 }
 
 #garbage {
+	display: none;
 	height: 100px;
 	width: 100px;
-	background-color: red;
-	position: relative;
-	display: block;
-	z-index: 2;
-}
-
-#mouth {
-	margin-top: 400px;
-	height: 400px;
-	width: 400px;
 	background-color: black;
-	position: relative;
-	display: block;
-	z-index: 1;
+	z-index: 3;
 }
 

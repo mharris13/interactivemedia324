@@ -6,8 +6,8 @@ $(document).ready(function(){
 	 	$( "#garbage" ).draggable();
   	});
 
- 	$("#mouth").hover(function(){
-        $("#garbage").hide();
+ 	$(" #jaw ").hover(function(){
+        $( "#garbage" ).hide();
     });
 
  
