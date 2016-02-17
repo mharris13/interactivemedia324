@@ -10,5 +10,15 @@ $(document).ready(function(){
         $( "#garbage" ).hide();
     });
 
- 
+	$(" #jaw ").mouseenter(function() {
+    	$(this).animate({ marginTop: -100 });
+
+	})
+
+	$(" #jaw ").mouseleave(function() {
+    	$(this).animate({ marginTop: -160 });
+
+	})
+
+
 });
