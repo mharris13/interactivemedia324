@@ -5,10 +5,19 @@ body {
 
 /* div that contains Trump's head, the caption, and the headline.  
 this div is what is used to move those elements around the page */
-#container {
-	margin-top: 10px;
+#trump-container {
+	margin-top: 0px;
 	position: absolute;
 	width: 99%;
+	z-index: 2;
+}
+
+
+/* div that contains Trump's head, tagline, title, and all garbage. */
+.container {
+	position: absolute;
+	width: 99%;
+	z-index: -1;
 }
 
 
@@ -43,7 +52,7 @@ this div is what is used to move those elements around the page */
 
 /* red border around page to represent campaign poster */
 .line-border {
-	height: 1150px;
+	height: 1135px;
 	width: 97.6%;
 	display: block;
 	position: absolute;
@@ -100,7 +109,7 @@ this div is what is used to move those elements around the page */
 #star-five:after {
    position: absolute;
    display: inline-block;
-   color: red;
+   color: #9E1B08;
    top: 3px;
    left: -105px;
    width: 0px;
@@ -124,6 +133,7 @@ this div is what is used to move those elements around the page */
 	margin-top: 150px;
 }
 
+
 /* pieces that make up Trump's head */
 #head {
 	position: relative;
@@ -134,16 +144,50 @@ this div is what is used to move those elements around the page */
 #jaw {
 	z-index: 2;
 	display: block;
-	margin-left: -130px;
+	margin-left: 81px;
 	margin-top: -160px;
 }
 
-/* garbage that we will feed Trump */
-#garbage {
-	display: block;
-	height: 100px;
-	width: 100px;
-	background-color: black;
+
+/* garbage that we will feed the Trump */
+#bottle {
+	display: inline-block;
+	top: 170px;
+	left: 780px;
 	z-index: 3;
 }
 
+#paper {
+	display: inline-block;
+	top: 170px;
+	left: 500px;
+	z-index: 3;
+}
+
+#apple {
+	display: inline-block;
+	top: 170px;
+	left: 550px;
+	z-index: 3;
+}
+
+
+#trashcan {
+	display: inline-block;
+	position: relative;
+	top: 500px;
+	left: 1000px;
+	z-index: 4;
+}
+
+
+/* Money vomit */
+#money {
+    display: none;
+    margin-top: 520px;
+    left: 0px;
+    z-index: 10;
+}
+
+
+/* Media Queries */
