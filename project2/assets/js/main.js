@@ -43,13 +43,13 @@ $(document).ready(function(){
 
  	//mouth opening to vomit money 
  	//(code only above this- very long)
-	//setTimeout(function() {
-    		//$('#jaw').delay(4000).animate({ marginTop: -100 });
-    		//$('#money').delay(4000).fadeIn("slow");
-    		//$('#money').fadeOut("slow");
-    		//$('#jaw').delay(500).animate({ marginTop: -160 });
+	setTimeout(function() {
+    		$('#jaw').delay(4000).animate({ marginTop: -100 });
+    		$('#money').delay(4000).fadeIn("slow");
+    		$('#money').fadeOut("slow");
+    		$('#jaw').delay(500).animate({ marginTop: -160 });
 
-	//})
+	})
 
 
 
