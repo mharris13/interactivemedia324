@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-      	//alert("Feed the Trump");
+      	alert("Feed the Trump");
 
       	//functions that allow divs to be dragged
       	$(function() {
